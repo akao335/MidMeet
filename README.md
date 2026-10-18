@@ -18,12 +18,12 @@ The full document is in `docs/P1/`.
 
 ## Team Members
 
-Nicholas jackson
-Nandhana Kamalabaskaran
-Alison Kao
-Sameeraa Kandalgaonkar
-Yair Parkhov
-Vedanshi Sreeramoju
+Nicholas Jackson\
+Nandhana Kamalabaskaran\
+Alison Kao\
+Sameeraa Kandalgaonkar\
+Yair Parkhov\
+Vedanshi Sreeramoju\
 
 ## AI Usage
 
