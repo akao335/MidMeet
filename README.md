@@ -23,7 +23,8 @@ Nandhana Kamalabaskaran\
 Alison Kao\
 Sameeraa Kandalgaonkar\
 Yair Parkhov\
-Vedanshi Sreeramoju
+Vedanshi Sreeramoju\
+Tanay Munnangi 
 
 ## AI Usage
 
