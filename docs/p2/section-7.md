@@ -53,3 +53,25 @@
 | Consequences | Favors availability as the User sees it (QAS-03) and correctness (QAS-05). The User gets a clear answer quickly instead of a long wait or a ranking that looks fair but is built on incomplete data. The move is failing fast. Cost: a brief provider hiccup ends the search, and the User has to ask again, even when a retry would have succeeded. |
 | Evidence | None yet. QAS-03 will be tested with 20 forced provider failures. |
 | Related | QAS-03, QAS-05, UC-01 A4, UC-02 A2, R1 |
+
+
+## 7.2  Trade-off summary
+
+| Quality favored | Architectural move | Cost accepted | Recorded in |
+|---|---|---|---|
+| Security, privacy | Server between the browser and Google, holding the key | Extra network trip per search; server code to build | ADR-01 |
+| Modifiability | One Google Connector behind LocationData | Extra component; no Google-only features | ADR-02 |
+| Privacy | No persistent storage; addresses in memory only | No caching, so more provider calls and quota; entries lost on refresh | ADR-03 |
+| Availability, correctness | 4-second timeout, no retry, no partial results | A brief provider hiccup fails the whole search | ADR-04 |
+
+
+
+
+
+
+
+
+
+
+
+
