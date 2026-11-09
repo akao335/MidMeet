@@ -13,8 +13,10 @@ minutes on a map.
 This first release covers two people and driving time only. Other travel
 modes, groups of three or more, and reservations are out of scope for now.
 
-This repository currently holds our P1 deliverable (proposal and requirements).
+This repository currently holds:
+- our P1 deliverable (proposal and requirements).
 The full document is in `docs/P1/`.
+- our P2 deliverable (analysis and high-level design) The full document is in 'docs/p2'.
 
 ## Team Members
 
@@ -29,4 +31,4 @@ Tanay Munnangi
 ## AI Usage
 
 Our use of AI tools is logged in section 4.5 of the P1 document
-(`docs/P1/`).
+(`docs/P1/`) and section 10.5 of document P2 ('docs/p2').
